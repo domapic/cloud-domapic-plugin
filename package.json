@@ -1,0 +1,41 @@
+{
+  "name": "cloud-domapic-plugin",
+  "version": "1.0.0-alpha.1",
+  "description": "Plugin for connecting Controller to Domapic Cloud",
+  "main": "server.js",
+  "bin": {
+    "domapic-cloud": "./bin/domapic-cloud"
+  },
+  "files": [
+    "/lib",
+    "/bin",
+    "/plugin",
+    "server.js"
+  ],
+  "keywords": [
+    "domapic",
+    "plugin",
+    "cloud",
+    "service",
+    "online"
+  ],
+  "scripts": {
+    "test": "narval",
+    "coveralls": "cat ./.coverage/lcov.info | coveralls",
+    "domapic-cloud": "./bin/domapic-cloud"
+  },
+  "dependencies": {
+    "domapic-service": "1.0.0-beta.1"
+  },
+  "devDependencies": {
+    "coveralls": "3.0.2",
+    "narval": "2.2.1"
+  },
+  "author": {
+    "name": "Javier Brea",
+    "url": "https://javierbrea.com"
+  },
+  "homepage": "http://domapic.com",
+  "license": "MIT",
+  "repository": "https://github.com/domapic/cloud-domapic-plugin"
+}
