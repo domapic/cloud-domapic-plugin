@@ -14,7 +14,7 @@ The Cloud Domapic Plugin sends information about your Controller current public 
 
 It does not send passwords or any other sensible information about Controller users. It creates a new api key token for each registered user, and send this one among with the user email. Users can register by their self in the Domapic Cloud Service or sign in using Google Oauth, and then the Controller will appear in their list of authorized Servers. The specific permissions for the user in the Controller will be kept.
 
-Once your Controller is synced with the Domapic Cloud Service using this plugin, each time you add a new user he will receive an email notification from Domapic Cloud, informing him how to access.
+Once your Controller is synced with the Domapic Cloud Service using this plugin, each time you add a new user he will receive an email notification from Domapic Cloud, informing him about how to access.
 
 [coveralls-image]: https://coveralls.io/repos/github/domapic/cloud-domapic-plugin/badge.svg
 [coveralls-url]: https://coveralls.io/github/domapic/cloud-domapic-plugin
