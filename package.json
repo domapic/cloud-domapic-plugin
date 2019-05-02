@@ -30,7 +30,7 @@
     "request-promise": "^4.2.4"
   },
   "devDependencies": {
-    "coveralls": "3.0.2",
+    "coveralls": "3.0.3",
     "mockery": "^2.1.0",
     "narval": "2.2.1"
   },
