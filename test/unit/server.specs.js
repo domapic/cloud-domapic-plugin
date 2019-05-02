@@ -6,15 +6,17 @@ const DomapicMocks = require('./Domapic.mocks')
 
 test.describe('server', () => {
   let domapic
+  let clock
 
   test.before(() => {
     domapic = new DomapicMocks()
-
+    clock = test.sinon.useFakeTimers()
     require('../../server')
   })
 
   test.after(() => {
     domapic.restore()
+    clock.restore()
   })
 
   test.it('should have created a Domapic Plugin, passing the package path', () => {
